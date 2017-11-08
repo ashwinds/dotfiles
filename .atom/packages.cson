@@ -1,0 +1,14 @@
+packages: [
+  "atom-shell-commands"
+  "autocomplete-clang"
+  "autocomplete-python"
+  "busy-signal"
+  "go-debug"
+  "go-plus"
+  "go-signature-statusbar"
+  "intentions"
+  "linter"
+  "linter-clang"
+  "linter-ui-default"
+  "package-sync"
+]

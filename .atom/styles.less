@@ -1,0 +1,39 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+ // .tree-view {
+ // }
+ // 
+ // .editor {
+ // 
+ // }
+ // 
+ // .editor .cursor {
+ // 
+ // }
+ // .atom-workspace { font-size: 14px; }
+ // .pane-item { font-size: 20px; }
+ 
+@ui-font-size: 14px;
+.status-bar {
+  font-size: @ui-font-size;
+  height: @ui-font-size * 2;
+  line-height: @ui-font-size * 2 - 4;
+}
+.modal.overlay {
+   font-size: @ui-font-size;
+}
+
+linter-message{
+   font-size: @ui-font-size;
+}
+// .tab-bar .tab, .tab-bar .tab.active {
+//   font-size: @ui-font-size;
+//   height: @ui-font-size * 4;
+// }

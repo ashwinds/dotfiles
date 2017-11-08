@@ -1,0 +1,119 @@
+"*":
+  "atom-ctags": {}
+  "atom-fuzzy-grep":
+    preserveLastSearch: true
+  "atom-shell-commands":
+    commands: [
+      {
+        name: "rsync"
+        command: "rsync"
+        arguments: [
+          "-avzh"
+          "--exclude"
+          ".*"
+          "--exclude='*.dat'"
+          "/Users/ashwinds/ashwin/code/eos/bfc.4/src/"
+          "us119:/home/ashwinds/bfc.4/src/"
+        ]
+        options:
+          keymap: "cmd-r"
+          silent: true
+      }
+    ]
+  autocomplete: {}
+  "autocomplete-go": {}
+  "autocomplete-plus":
+    confirmCompletion: "enter"
+  "autocomplete-python":
+    caseInsensitiveCompletion: false
+    extraPaths: "/Users/ashwinds/ashwin/code/eos/capi.0/usr/lib/python2.7/site-packages"
+    useKite: false
+  core:
+    customFileTypes:
+      source: [
+        "[object Object]"
+      ]
+      "source.cpp": [
+        "tin"
+      ]
+    disabledPackages: [
+      "atomic-emacs"
+      "autocomplete-plus-python-jedi"
+      "symbols-view"
+      "metrics"
+      "git-grep"
+      "atom-fuzzy-grep"
+      "go-debug"
+    ]
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "no"
+    themes: [
+      "atom-light-ui"
+      "atom-dark-syntax"
+    ]
+  editor:
+    fontFamily: "monaco"
+    fontSize: 16
+    invisibles: {}
+    showInvisibles: true
+    softTabs: false
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "b38ea757-bb07-fd4f-1814-f2357fcbfc73"
+  "go-plus":
+    autocomplete: {}
+    currentPanelHeight: "10.236220472440944vh"
+    formatTool: "gofmt"
+    lint:
+      args: [
+        "--vendor"
+        "--disable-all"
+        "--enable=vet"
+        "--disable=vetshadow"
+        "--enable=golint"
+        "--disable=ineffassign"
+        "--disable=goconst"
+        "--tests"
+        "--json"
+        "."
+      ]
+    navigator: {}
+    test:
+      coverageHighlightMode: "disabled"
+      runTestsWithCoverage: false
+  "gometalinter-linter":
+    args: [
+      "--vendor"
+      "--disable-all"
+      "--enable=vet"
+      "--disable=vetshadow"
+      "--enable=golint"
+      "--enable=ineffassign"
+      "--enable=goconst"
+      "--tests"
+      "--json"
+      "."
+    ]
+  goto: {}
+  linter: {}
+  "linter-clang":
+    clangIncludePaths: [
+      "/Users/ashwinds/ashwin/code/tmp/eos"
+    ]
+  "linter-pylint": {}
+  "linter-ui-default":
+    panelHeight: 81
+  metrics:
+    userId: "d639a79f3b26310bbe354502900e4e740d7ceea5"
+  "one-dark-ui": {}
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  "tester-go":
+    coverageHighlightMode: "disabled"
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    removeTrailingWhitespace: false

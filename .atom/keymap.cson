@@ -1,0 +1,27 @@
+# Your keymap
+#
+# Atom keymaps work similarly to stylesheets. Just as stylesheets use selectors
+# to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's built-in keymap:
+#
+# '.editor':
+#   'enter': 'editor:newline'
+#
+# '.workspace':
+#   'ctrl-P': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# '.editor':
+#   'ctrl-space': 'autocomplete-jedi:toggle'
+# 'atom-text-editor':
+#   'cmd-r': 'run-command:re-run-last-command'
+# 'atom-text-editor':
+#   'cmd-r': 'atom-shell-commands:rsync'
+'.platform-darwin atom-text-editor[data-grammar~="go"]:not([mini])':
+  'alt-shift-G': 'golang:godef-return'
+  'alt-shift-P': 'golang:toggle-panel'
